@@ -104,7 +104,7 @@ U 1 1 59CAC5DC
 P 4200 3200
 F 0 "J2" H 4119 2925 50  0000 C CNN
 F 1 "CONN_01X02" H 4119 3016 50  0000 C CNN
-F 2 "Connectors:Banana_Jack_2Pin" H 4200 3200 50  0001 C CNN
+F 2 "custom_footprints:SolderWirePad_1x2-8mm" H 4200 3200 50  0001 C CNN
 F 3 "" H 4200 3200 50  0001 C CNN
 	1    4200 3200
 	-1   0    0    1   
@@ -115,7 +115,7 @@ U 1 1 59CAC664
 P 4200 3400
 F 0 "J3" H 4278 3441 50  0000 L CNN
 F 1 "CONN_01X02" H 4278 3350 50  0000 L CNN
-F 2 "Connectors:Banana_Jack_2Pin" H 4200 3400 50  0001 C CNN
+F 2 "custom_footprints:SolderWirePad_1x2-8mm" H 4200 3400 50  0001 C CNN
 F 3 "" H 4200 3400 50  0001 C CNN
 	1    4200 3400
 	-1   0    0    -1  
@@ -126,7 +126,7 @@ U 1 1 59CAC690
 P 5050 3200
 F 0 "J5" H 4968 2925 50  0000 C CNN
 F 1 "CONN_01X02" H 4968 3016 50  0000 C CNN
-F 2 "Connectors:Banana_Jack_2Pin" H 5050 3200 50  0001 C CNN
+F 2 "custom_footprints:SolderWirePad_1x2-8mm" H 5050 3200 50  0001 C CNN
 F 3 "" H 5050 3200 50  0001 C CNN
 	1    5050 3200
 	1    0    0    1   
@@ -137,7 +137,7 @@ U 1 1 59CAC6F5
 P 5050 3400
 F 0 "J6" H 5128 3441 50  0000 L CNN
 F 1 "CONN_01X02" H 5128 3350 50  0000 L CNN
-F 2 "Connectors:Banana_Jack_2Pin" H 5050 3400 50  0001 C CNN
+F 2 "custom_footprints:SolderWirePad_1x2-8mm" H 5050 3400 50  0001 C CNN
 F 3 "" H 5050 3400 50  0001 C CNN
 	1    5050 3400
 	1    0    0    -1  
@@ -146,4 +146,8 @@ NoConn ~ 4850 3450
 NoConn ~ 4850 3150
 NoConn ~ 4400 3150
 NoConn ~ 4400 3450
+Text Label 4450 4350 0    60   ~ 0
+GND
+Text Label 4350 3650 0    60   ~ 0
+VBUS
 $EndSCHEMATC
