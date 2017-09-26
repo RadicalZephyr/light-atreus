@@ -156,10 +156,11 @@
       (net 4 N-diode-28))
   )
 
-  (gr_line (start 84 22) (end 128 30) (angle 90) (layer Cmts.User) (width 0.3))
-  (gr_line (start 128 30) (end 128 54) (angle 90) (layer Cmts.User) (width 0.3))
-  (gr_line (start 128 54) (end 140 54) (angle 90) (layer Cmts.User) (width 0.3))
-  (gr_line (start 140 54) (end 140 30) (angle 90) (layer Cmts.User) (width 0.3))
-  (gr_line (start 140 30) (end 185 22) (angle 90) (layer Cmts.User) (width 0.3))
+  (gr_line (start 84 22) (end 128 30) (angle 90) (layer Edge.Cuts) (width 0.3))
+  (gr_line (start 128 30) (end 128 54) (angle 90) (layer Edge.Cuts) (width 0.3))
+  (gr_line (start 128 54) (end 140 54) (angle 90) (layer Edge.Cuts) (width 0.3))
+  (gr_line (start 140 54) (end 140 30) (angle 90) (layer Edge.Cuts) (width 0.3))
+  (gr_line (start 140 30) (end 185 22) (angle 90) (layer Edge.Cuts) (width 0.3))
 
 )
+
