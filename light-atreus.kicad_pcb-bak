@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6002)
-    (drawings 12)
+    (drawings 13)
     (tracks 2)
     (zones 0)
     (modules 2)
@@ -157,10 +157,11 @@
       (net 4 N-diode-28))
   )
 
+  (gr_line (start 151.2824 96.6216) (end 138.176 109.728) (layer Edge.Cuts) (width 0.381) (tstamp 59CAC159))
   (gr_line (start 113.8936 96.6216) (end 113.8936 89.7382) (layer Edge.Cuts) (width 0.381))
   (gr_line (start 127 109.728) (end 113.8936 96.6216) (layer Edge.Cuts) (width 0.381))
-  (gr_line (start 153.0858 89.7382) (end 153.0858 96.6216) (layer Edge.Cuts) (width 0.381))
-  (gr_line (start 113.8936 89.7382) (end 153.0858 89.7382) (layer Edge.Cuts) (width 0.381))
+  (gr_line (start 151.2824 89.7382) (end 151.2824 96.6216) (layer Edge.Cuts) (width 0.381))
+  (gr_line (start 113.8936 89.7382) (end 151.2824 89.7382) (layer Edge.Cuts) (width 0.381))
   (gr_line (start 127 133.858) (end 127 109.728) (layer Edge.Cuts) (width 0.381))
   (gr_line (start 138.176 133.858) (end 138.176 109.728) (layer Edge.Cuts) (width 0.381))
   (gr_line (start 127 133.858) (end 138.176 133.858) (layer Edge.Cuts) (width 0.381))
