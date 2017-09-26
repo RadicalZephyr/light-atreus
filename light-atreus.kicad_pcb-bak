@@ -166,7 +166,7 @@
   (gr_line (start 138.6284 134.391) (end 138.6284 110.391) (angle 90) (layer Cmts.User) (width 0.3))
   (gr_line (start 138.6284 110.391) (end 183.6284 102.391) (angle 90) (layer Cmts.User) (width 0.3))
 
-  (via (at 148.844 94.8182) (size 3.81) (drill 3.2766) (layers Front Back) (net 0))
-  (via (at 116.6368 94.8182) (size 3.81) (drill 3.2766) (layers Front Back) (net 0))
+  (via (at 117.8306 94.869) (size 3.81) (drill 3.2766) (layers Front Back) (net 0))
+  (via (at 147.701 94.869) (size 3.81) (drill 3.2766) (layers Front Back) (net 0))
 
 )
