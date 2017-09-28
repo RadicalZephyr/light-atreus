@@ -1,4 +1,4 @@
-(module USB_Micro-B-custom (layer F.Cu) (tedit 59CD5AF0)
+(module USB_Micro-B-custom (layer F.Cu) (tedit 59CD5CA6)
   (descr "Micro USB Type B Receptacle")
   (tags "USB USB_B USB_micro USB_OTG")
   (attr smd)
@@ -28,4 +28,6 @@
   (pad "" thru_hole oval (at -4.225 3.15 90) (size 1.8 1.1) (drill oval 1.2 0.5) (layers *.Cu *.Mask))
   (pad "" thru_hole oval (at 4.225 1.4 90) (size 1.8 1.1) (drill oval 1.2 0.5) (layers *.Cu *.Mask))
   (pad "" thru_hole oval (at 4.225 3.15 90) (size 1.8 1.1) (drill oval 1.2 0.5) (layers *.Cu *.Mask))
+  (pad "" smd rect (at 4.225 2.25 90) (size 0.8 1.1) (layers F.Cu F.Paste F.Mask))
+  (pad "" smd rect (at -4.225 2.25 90) (size 0.8 1.1) (layers F.Cu F.Paste F.Mask))
 )
