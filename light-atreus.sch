@@ -233,4 +233,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 5100 5850 4450
 Connection ~ 5850 4450
+Text Label 3950 4450 0    60   ~ 0
+SHIELD
+Text Label 4350 3850 0    60   ~ 0
+D+
+Text Label 4200 3950 0    60   ~ 0
+D-
 $EndSCHEMATC
