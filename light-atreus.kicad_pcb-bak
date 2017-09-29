@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 66)
+    (drawings 70)
     (tracks 51)
     (zones 0)
     (modules 10)
@@ -317,6 +317,18 @@
       (net 5 /VBUS))
   )
 
+  (gr_text + (at 146.05 80.264) (layer F.SilkS) (tstamp 59CDE100)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text - (at 138.43 80.264) (layer F.SilkS) (tstamp 59CDE0FD)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text - (at 122.174 80.264) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text + (at 114.554 80.264) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 110.267605 81.393954) (end 110.320313 81.567989) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 110.235477 81.218117) (end 110.267605 81.393954) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 111.207888 82.738213) (end 111.6076 83.058) (layer Edge.Cuts) (width 0.1))
