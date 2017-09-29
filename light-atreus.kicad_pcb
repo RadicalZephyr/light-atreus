@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 66)
-    (tracks 2)
+    (tracks 7)
     (zones 0)
     (modules 10)
     (nets 14)
@@ -34,8 +34,8 @@
   )
 
   (setup
-    (last_trace_width 0.2032)
-    (trace_clearance 0)
+    (last_trace_width 0.254)
+    (trace_clearance 0.254)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
@@ -103,8 +103,8 @@
   (net 13 "Net-(J9-Pad2)")
 
   (net_class Default "This is the default net class."
-    (clearance 0)
-    (trace_width 0.2032)
+    (clearance 0.254)
+    (trace_width 0.254)
     (via_dia 0.889)
     (via_drill 0.635)
     (uvia_dia 0.508)
@@ -386,5 +386,10 @@
 
   (via (at 145.2753 76.0222) (size 3.556) (drill 3.302) (layers F.Cu B.Cu) (net 0) (status 40000))
   (via (at 115.3033 76.0222) (size 3.556) (drill 3.302) (layers F.Cu B.Cu) (net 0) (status 40000))
+  (segment (start 128.9893 114.2206) (end 128.9893 75.784) (width 0.254) (layer F.Cu) (net 1))
+  (segment (start 129.6393 75.784) (end 129.6393 114.0206) (width 0.254) (layer F.Cu) (net 2))
+  (segment (start 130.2893 75.784) (end 130.2893 114.0206) (width 0.254) (layer F.Cu) (net 3))
+  (segment (start 130.9393 75.784) (end 130.9393 114.0206) (width 0.254) (layer F.Cu) (net 4))
+  (segment (start 131.5893 75.784) (end 131.5893 114.2206) (width 0.254) (layer F.Cu) (net 5))
 
 )
