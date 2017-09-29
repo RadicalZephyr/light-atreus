@@ -182,17 +182,6 @@ F 3 "" H 6300 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 J10
-U 1 1 59CD667D
-P 6300 5150
-F 0 "J10" H 6218 4875 50  0000 C CNN
-F 1 "CONN_01X02" H 6218 4966 50  0000 C CNN
-F 2 "custom_footprints:SolderWirePad_1x2-8mm" H 6300 5150 50  0001 C CNN
-F 3 "" H 6300 5150 50  0001 C CNN
-	1    6300 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_01X02 J6
 U 1 1 59CD691B
 P 6300 2150
@@ -222,17 +211,11 @@ NoConn ~ 6100 3100
 NoConn ~ 6100 2650
 NoConn ~ 6100 2200
 NoConn ~ 6100 4750
-NoConn ~ 6100 5200
 Wire Wire Line
 	6100 4650 5950 4650
 Wire Wire Line
 	5950 4650 5950 4350
 Connection ~ 5950 4350
-Wire Wire Line
-	6100 5100 5850 5100
-Wire Wire Line
-	5850 5100 5850 4450
-Connection ~ 5850 4450
 Text Label 3950 4450 0    60   ~ 0
 SHIELD
 Text Label 4350 3850 0    60   ~ 0
